@@ -23,4 +23,4 @@ RamAccount.diposite(5900);
 NigamAccount.withdraw(200);
 console.log(RamAccount, NigamAccount);
 
-//Hoisting Not working In class Object
+//Hoisting Not working In class
