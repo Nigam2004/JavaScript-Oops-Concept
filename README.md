@@ -1,7 +1,8 @@
                                               [JAVSCRIPT-OOPS-CONCEPT]
 
 [Constructer Function]
-A constructor is a special function that is used to create and initialize an object instance of a class. In JavaScript, a constructor gets called when an object is created using the new keyword. The purpose of a constructor is to create a new object and set values for any existing object properties.
+
+ <p> A constructor is a special function that is used to create and initialize an object instance of a class. In JavaScript, a constructor gets called when an object is created using the new keyword. The purpose of a constructor is to create a new object and set values for any existing object properties.</p>
 
 ```
 function BankAccount(customerName, balance = 0) {
@@ -67,6 +68,5 @@ class BankAccount {
     this.balance -= amount;
   }
 }
-
 
 ```
