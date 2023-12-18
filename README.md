@@ -13,4 +13,15 @@
     this.balance -= amount;
   };
 }
+const NigamAccount = new BankAccount("Nigam", 400);
+console.log(NigamAccount);
+//
+BankAccount {
+  customerName: 'Nigam',
+  Account_no: 1702895741822,
+  balance: 400,
+  deposite: [Function (anonymous)],
+  withdraw: [Function (anonymous)]
+}
+//
 ```
