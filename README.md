@@ -1,5 +1,5 @@
 <h1>Javscript-Oops-Concept</h1>
-
+##Content
 <h2>Constructer Function</h2>
  <p> A constructor is a special function that is used to create and initialize an object instance of a class. In JavaScript, a constructor gets called when an object is created using the new keyword. The purpose of a constructor is to create a new object and set values for any existing object properties.</p>
 
@@ -32,7 +32,7 @@ BankAccount {
 <p> JavScript is a prototype and Object based language.In JavaScript, objects can inherit features from one another via prototypes. Every object has its own property called a prototype.</p>
  <b>Note:-->Hoisting is working with constructer Function</b>
 
-```
+```javscript
 --> How to inilize a Prototype in constructer?
 
   function BankAccount(customerName, balance = 0) {
@@ -69,3 +69,5 @@ class BankAccount {
 }
 
 ```
+
+[Back to top](##Content)
