@@ -3,7 +3,7 @@
 <h2>Constructer Function</h2>
  <p> A constructor is a special function that is used to create and initialize an object instance of a class. In JavaScript, a constructor gets called when an object is created using the new keyword. The purpose of a constructor is to create a new object and set values for any existing object properties.</p>
 
-```
+```javscript
 function BankAccount(customerName, balance = 0) {
   this.customerName = customerName;
   this.Account_no = Date.now();
