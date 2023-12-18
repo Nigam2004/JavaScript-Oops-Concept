@@ -1,6 +1,7 @@
                                               [JAVSCRIPT-OOPS-CONCEPT]
 
-[Constructer Function]:-A constructor is a special function that is used to create and initialize an object instance of a class. In JavaScript, a constructor gets called when an object is created using the new keyword. The purpose of a constructor is to create a new object and set values for any existing object properties.
+[Constructer Function]
+A constructor is a special function that is used to create and initialize an object instance of a class. In JavaScript, a constructor gets called when an object is created using the new keyword. The purpose of a constructor is to create a new object and set values for any existing object properties.
 
 ```
 function BankAccount(customerName, balance = 0) {
@@ -27,7 +28,8 @@ BankAccount {
 //
 ```
 
-[Prototype] :-JavScript is a prototype and Object based language.In JavaScript, objects can inherit features from one another via prototypes. Every object has its own property called a prototype.
+[Prototype]
+JavScript is a prototype and Object based language.In JavaScript, objects can inherit features from one another via prototypes. Every object has its own property called a prototype.
 Note:-->Hoisting is working with constructer Function
 
 ```
@@ -45,8 +47,8 @@ BankAccount.prototype.withdraw = function (amount) {
   this.balance -= amount;
 };
 
-
 -->How prototype initiate in classess ?
+
 class BankAccount {
   customerName;
   Account_no;
