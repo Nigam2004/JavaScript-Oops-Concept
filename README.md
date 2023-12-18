@@ -29,8 +29,8 @@ BankAccount {
 ```
 
 <h2>Prototype</h2>
-JavScript is a prototype and Object based language.In JavaScript, objects can inherit features from one another via prototypes. Every object has its own property called a prototype.
-Note:-->Hoisting is working with constructer Function
+<p> JavScript is a prototype and Object based language.In JavaScript, objects can inherit features from one another via prototypes. Every object has its own property called a prototype.</p>
+ <p>Note:-->Hoisting is working with constructer Function</p>
 
 ```
 --> How to inilize a Prototype in constructer?
